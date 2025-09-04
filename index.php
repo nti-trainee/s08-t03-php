@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username'])) {
         $message = "Username updated successfully!";
     } else {
 
-        $message = "Error updating username: " . mysqli_error($conn);
+        $message = "Error updating username: ";
     }
 }
 
