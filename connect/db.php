@@ -1,4 +1,3 @@
-  GNU nano 8.3                                                db.php
 <?php
 
 $serverName     = 'localhost';
